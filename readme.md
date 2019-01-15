@@ -24,15 +24,15 @@ Latitude and Longitude are decimal numbers. e.g. for oslo it would be 59.89 and 
 
 The script will write data to a new CSV file called `document.csv` in the project directory.
 The CSV is written with the following format: [UNIX TIME, Outside Temp]
-Example data:
+Example data with a polling rate of 2 minutes and weather updates every 4 minutes:
 
 ```
-1547550128,-2.66,Bedroom,16.0,15,Living room,18.5,23
-1547550369,-2.76,Bedroom,15.0,15,Living room,18.5,23
-1547550429,-2.76,Bedroom,15.0,15,Living room,18.5,23
-1547550669,-2.86,Bedroom,15.0,15,Living room,18.5,23
-1547550729,-2.86,Bedroom,15.0,15,Living room,18.5,23
-1547550968,-2.97,Bedroom,15.0,15,Living room,18.5,23
-1547551028,-2.97,Bedroom,14.0,15,Living room,18.5,23
-1547551269,-3.07,Bedroom,15.0,15,Living room,18.5,23
+1547550120,-2.66,Bedroom,16.0,15,Living room,18.5,23
+1547550240,-2.76,Bedroom,15.0,15,Living room,18.5,23
+1547550360,-2.76,Bedroom,15.0,15,Living room,18.5,23
+1547550480,-2.86,Bedroom,15.0,15,Living room,18.5,23
+1547550600,-2.86,Bedroom,15.0,15,Living room,18.5,23
+1547550720,-2.97,Bedroom,15.0,15,Living room,18.5,23
+1547550840,-2.97,Bedroom,14.0,15,Living room,18.5,23
+1547550960,-3.07,Bedroom,15.0,15,Living room,18.5,23
 ```
