@@ -23,7 +23,8 @@ Latitude and Longitude are decimal numbers. e.g. for oslo it would be 59.89 and 
 ## Output
 
 The script will write data to a new CSV file called `document.csv` in the project directory.
-The CSV is written with the following format: [UNIX TIME, Outside Temp]
+The CSV is written with the following format: `[UNIX TIME, Outside Temp, [Rooms]]`  
+Every room consists of three columns: `[RoomName, MeasuredTemperature, TargetTemperature]`  
 Example data with a polling rate of 2 minutes and weather updates every 4 minutes:
 
 ```
