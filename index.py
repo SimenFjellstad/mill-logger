@@ -47,7 +47,7 @@ current_oat = getOAT()
 
 async def get_all_room_temps():
     await mill_connection.update_rooms()
-    unixTime = str(time.time()).split('.')[0]  # We don't need nanotime
+    unixTime = int(time.time())
     currentTime = str(datetime.now()).split('.')[0]  # We don't need nanotime
     entry = [unixTime, current_oat]  # CSV Entry
 
